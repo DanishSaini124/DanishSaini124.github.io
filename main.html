@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danish Saini - Portfolio</title>
+    
+    <!-- 
+      Instructions for GitHub Pages:
+      1. Create a new repository on GitHub named: [your-github-username].github.io
+      2. Upload this file to that repository as "index.html".
+      3. Wait a few minutes, and your site will be live at https://[your-github-username].github.io
+    -->
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <style>
+        /* Using Tailwind's 'Inter' font */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Simple scrollbar styling for a modern look (true black) */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #000000; /* black */
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #374151; /* bg-gray-700 */
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #4B5563; /* bg-gray-600 */
+        }
+    </style>
+</head>
+<body class="bg-black text-white antialiased">
+
+    <!-- Header / Hero Section -->
+    <header class="container mx-auto max-w-4xl px-6 py-16 md:py-24 text-center">
+        
+        <!-- 
+          IMAGE UPDATED:
+          Here is the Gojo Satoru PFP link you provided.
+        -->
+        <img 
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2kj6cLry6id5eSRgds0kp5LOQxXphdP2ylUJnYQzpebL87YaGAF5m8w7r4dKMmXauo6rYKqSUpafuRs7lIS0cFXcyKOTMJibnzsTEWQ53E4dCB-3uklECR-QcCE9GxXvwie-6RCd7g80AWASDGFm3OSLp6hpXrcsJ5B2N3NZiPis4fldS5i3uvg5m6J4o/s720-rw/gojo-pfp-4.jpg" 
+          alt="Danish Saini" 
+          class="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full object-cover border-4 border-gray-700 shadow-lg"
+          onerror="this.src='https://placehold.co/150x150/111827/FFFFFF?text=DS'; this.onerror=null;"
+        >
+        
+        <h1 class="text-4xl md:text-5xl font-bold mt-6 text-white">Danish Saini</h1>
+        <p class="text-xl md:text-2xl text-gray-400 mt-2">Backend Developer & AI Enthusiast</p>
+        
+        <!-- Social Links -->
+        <div class="flex justify-center space-x-6 mt-8">
+            <a href="https://www.linkedin.com/in/danishsaini" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition duration-300" title="LinkedIn">
+                <i data-lucide="linkedin" class="w-7 h-7"></i>
+            </a>
+            <a href="https://github.com/DanishSaini124" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition duration-300" title="GitHub">
+                <i data-lucide="github" class="w-7 h-7"></i>
+            </a>
+            <a href="mailto:danishsaini79@gmail.com" class="text-gray-400 hover:text-white transition duration-300" title="Email">
+                <i data-lucide="mail" class="w-7 h-7"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto max-w-4xl px-6 pb-16">
+
+        <!-- About Me Section -->
+        <section id="about" class="mb-16">
+            <h2 class="text-3xl font-bold text-white mb-6 flex items-center">
+                <i data-lucide="user" class="w-7 h-7 mr-3"></i>
+                About Me
+            </h2>
+            <div class="space-y-4 text-gray-300 text-lg leading-relaxed bg-gray-900 p-6 rounded-lg border border-gray-800">
+                <p>
+                    I'm a Co-founder and Backend Lead at Ascend, where I'm architecting scalable infrastructure in Zig and implementing complex systems like our Elo rating algorithm. With a Bachelor's in Computer Science and Mathematics from Santa Clara University, I have a strong foundation in data structures, algorithms, and machine learning.
+                </p>
+                <p>
+                    From developing AI-powered academic assistants to building CI/CD pipelines for Discord bots, I thrive on solving complex problems. When I'm not coding, you can find me weightlifting, creating content, or deep-diving into astronomy. (Also a big fan of The Walking Dead and hockey!)
+                </p>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="mb-16">
+            <h2 class="text-3xl font-bold text-white mb-6 flex items-center">
+                <i data-lucide="cpu" class="w-7 h-7 mr-3"></i>
+                Technical Skills
+            </h2>
+            <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 space-y-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Languages</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Python</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">C++</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Java</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Typescript</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Frameworks & Libraries</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Django</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">FastAPI</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Flask</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">PyTorch</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Node.js</span>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Tools & Technologies</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Git</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">MongoDB</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">HTML</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">CSS</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">REST APIs</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">GitHub Actions</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Heroku</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-16">
+            <h2 class="text-3xl font-bold text-white mb-6 flex items-center">
+                <i data-lucide="folder-git-2" class="w-7 h-7 mr-3"></i>
+                Featured Projects
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <!-- Project Card 1 -->
+                <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-gray-600 transition duration-300 flex flex-col">
+                    <h3 class="text-xl font-bold text-white">Valorant Sentinel Bot</h3>
+                    <p class="text-sm text-gray-400 mb-3">Personal Project</p>
+                    <p class="text-gray-300 mb-4 flex-grow">A Discord bot providing real-time VALORANT stats and agent info using the official Riot API. Engineered with a full SDLC, CI/CD pipeline with GitHub Actions, and automated Heroku deployment.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">Python</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">discord.py</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">Riot API</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">CI/CD</span>
+                    </div>
+                    <!-- Add your project's GitHub URL in the href below -->
+                    <a href="https://github.com/DanishSaini124" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white self-start flex items-center">
+                        View on GitHub <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+                    </a>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-gray-600 transition duration-300 flex flex-col">
+                    <h3 class="text-xl font-bold text-white">Lockeln Tech</h3>
+                    <p class="text-sm text-gray-400 mb-3">Hackathon Project (SB Hacks 2025)</p>
+                    <p class="text-gray-300 mb-4 flex-grow">An AI-powered academic assistant built in 24 hours. Features task categorization, dynamic scheduling, and priority management using the Anthropic Claude API. Full-stack app with TypeScript, MongoDB, and Node.js.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">TypeScript</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">MongoDB</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">Node.js</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">Claude API</span>
+                    </div>
+                    <!-- Add your project's GitHub URL in the href below -->
+                    <a href="https://github.com/DanishSaini124" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white self-start flex items-center">
+                        View on GitHub <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+                    </a>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-gray-600 transition duration-300 flex flex-col">
+                    <h3 class="text-xl font-bold text-white">AI Card Game</h3>
+                    <p class="text-sm text-gray-400 mb-3">College Project</p>
+                    <p class="text-gray-300 mb-4 flex-grow">A strategic video card game with an AI opponent using game theory algorithms for decision-making. Programmed in C++ with OOP principles, custom data structures, and an interactive GUI with animations and audio.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">C++</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">Game Theory</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">OOP</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">GUI</span>
+                    </div>
+                    <!-- Add your project's GitHub URL in the href below -->
+                    <a href="https://github.com/DanishSaini124" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white self-start flex items-center">
+                        View on GitHub <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Experience & Leadership Section -->
+        <section id="experience" class="mb-16">
+            <h2 class="text-3xl font-bold text-white mb-8 flex items-center">
+                <i data-lucide="briefcase" class="w-7 h-7 mr-3"></i>
+                Experience & Leadership
+            </h2>
+            
+            <!-- Timeline Container -->
+            <div class="relative border-l-2 border-gray-700 pl-8 space-y-12">
+                <!-- Timeline Item 1 -->
+                <div class="relative">
+                    <div class="absolute -left-10 bg-gray-700 w-4 h-4 rounded-full border-4 border-black"></div>
+                    <p class="text-sm text-gray-400 mb-1">August 2025 - Present</p>
+                    <h3 class="text-xl font-bold text-white">Co-founder / Backend Lead</h3>
+                    <p class="text-lg text-gray-300 mb-3">Ascend (Remote)</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>Architected backend infrastructure in Zig for efficient image retrieval and serving.</li>
+                        <li>Implemented mathematical Elo rating system with proper score calculations and rank progression.</li>
+                        <li>Led technical product development from concept to MVP, coordinating full-stack implementation.</li>
+                    </ul>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="relative">
+                    <div class="absolute -left-10 bg-gray-700 w-4 h-4 rounded-full border-4 border-black"></div>
+                    <p class="text-sm text-gray-400 mb-1">February 2025 - April 2025</p>
+                    <h3 class="text-xl font-bold text-white">Scholar</h3>
+                    <p class="text-lg text-gray-300 mb-3">AI LA (Los Angeles, CA)</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>Developed a linear regression model for asteroid trajectory prediction using feature engineering.</li>
+                        <li>Implemented ML algorithms including K-means clustering, neural networks, and recommendation systems.</li>
+                    </ul>
+                </div>
+                
+                <!-- Timeline Item 3 -->
+                <div class="relative">
+                    <div class="absolute -left-10 bg-gray-700 w-4 h-4 rounded-full border-4 border-black"></div>
+                    <p class="text-sm text-gray-400 mb-1">December 2024 - June 2025</p>
+                    <h3 class="text-xl font-bold text-white">Logistics Lead</h3>
+                    <p class="text-lg text-gray-300 mb-3">HackCC (Moorpark, CA)</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-2">
+                        <li>Managed comprehensive logistics for a 250+ participant hackathon, coordinating venue and equipment.</li>
+                        <li>Oversaw event planning timeline, vendor coordination, and technical setup.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="mb-16">
+            <h2 class="text-3xl font-bold text-white mb-6 flex items-center">
+                <i data-lucide="graduation-cap" class="w-7 h-7 mr-3"></i>
+                Education
+            </h2>
+            <div class="space-y-6">
+                <div class="bg-gray-900 p-6 rounded-lg border border-gray-800">
+                    <h3 class="text-xl font-bold text-white">Santa Clara University</h3>
+                    <p class="text-lg text-gray-400">B.S. in Computer Science and Mathematics</p>
+                    <p class="text-gray-300 mt-2">Relevant Coursework: Data Structures & Algorithms, Probability and Statistics, Object Oriented Programming</p>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-lg border border-gray-800">
+                    <h3 class="text-xl font-bold text-white">Moorpark College</h3>
+                    <p class="text-lg text-gray-400">A.S. in Computer Science, Physics, and Mathematics</V>
+                    <p class="text-gray-300 mt-2">Graduated: September 2025</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-8 text-gray-500 text-sm">
+        <p>© 2025 Danish Saini</p>
+        <p class="mt-1">Built with HTML & Tailwind CSS</p>
+    </footer>
+
+    <!-- Script to activate Lucide icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+
+</body>
+</html>
+
