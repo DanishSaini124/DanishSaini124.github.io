@@ -6,10 +6,8 @@
     <title>Danish Saini - Portfolio</title>
     
     
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Lucide Icons CDN -->
     <script src="https://unpkg.com/lucide@latest"></script>
     
     <style>
@@ -34,7 +32,6 @@
 </head>
 <body class="bg-black text-white antialiased">
 
-    <!-- Header / Hero Section -->
     <header class="container mx-auto max-w-4xl px-6 py-16 md:py-24 text-center">
 
         <img 
@@ -47,7 +44,6 @@
         <h1 class="text-4xl md:text-5xl font-bold mt-6 text-white">Danish Saini</h1>
         <p class="text-xl md:text-2xl text-gray-400 mt-2">Electrical Engineer Major</p>
         
-        <!-- Social Links -->
         <div class="flex justify-center space-x-6 mt-8">
             <a href="https://www.linkedin.com/in/danishsaini" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition duration-300" title="LinkedIn">
                 <i data-lucide="linkedin" class="w-7 h-7"></i>
@@ -61,10 +57,8 @@
         </div>
     </header>
 
-    <!-- Main Content -->
     <main class="container mx-auto max-w-4xl px-6 pb-16">
 
-        <!-- About Me Section -->
         <section id="about" class="mb-16">
             <h2 class="text-3xl font-bold text-white mb-6 flex items-center">
                 <i data-lucide="user" class="w-7 h-7 mr-3"></i>
@@ -73,64 +67,60 @@
             <div class="space-y-4 text-gray-300 text-lg leading-relaxed bg-gray-900 p-6 rounded-lg border border-gray-800">
                 <p>
                     I switched into Electrical Engineering this quarter because software alone stopped pushing me. I haven’t taken an EE class yet, and I’m already moving faster than most people do after years in the major. Learning new technical domains is my unfair advantage , I ramp up in days, not semesters.
-
-Before EE, I shipped real systems at scale:
-
-Designed and built a production-grade social + payments platform (FastAPI, PostgreSQL, Supabase, Redis) now serving thousands of users.
-
-Automated client acquisition pipelines with Flask + AWS , cutting manual workload by 40%+ and directly increasing revenue.
-
-Trained ML models hitting 100% accuracy on real datasets.
-
-Organized 250-person hackathons and handled every operational moving part.
-
-Now I’m applying that same intensity to hardware. Actively diving into RF, mmWave, high-speed digital, PHY design, and advanced communication systems. I move quickly, take ownership immediately, and don’t wait for someone to give me permission to solve problems.
-
                 </p>
                 <p>
-                    Summer 2026:
-I’m looking for the internship that expects juniors to operate like mid-levels, RFIC, mmWave, 6G PHY, radar, satellite communications, or defense systems. If your team values raw capability, intellectual aggression, and people who turn ambiguity into delivered systems, we’ll get along.
-
-If you want someone who learns fast, works harder than most, and performs under pressure, reach out.
+                    Before EE, I shipped real systems at scale: Designed and built a production-grade social + payments platform (FastAPI, PostgreSQL, Supabase, Redis) now serving thousands of users. Automated client acquisition pipelines with Flask + AWS, cutting manual workload by 40%+ and directly increasing revenue. Trained ML models hitting 100% accuracy on real datasets. Organized 250-person hackathons and handled every operational moving part.
+                </p>
+                <p>
+                    Now I’m applying that same intensity to hardware. Actively diving into RF, mmWave, high-speed digital, PHY design, and advanced communication systems. I move quickly, take ownership immediately, and don’t wait for someone to give me permission to solve problems.
+                </p>
+                <p>
+                    Summer 2026: I’m looking for the internship that expects juniors to operate like mid-levels: RFIC, mmWave, 6G PHY, radar, satellite communications, or defense systems. If your team values raw capability, intellectual aggression, and people who turn ambiguity into delivered systems, we’ll get along.
                 </p>
             </div>
         </section>
 
-        <!-- Technical Skills Section -->
         <section id="skills" class="mb-16">
             <h2 class="text-3xl font-bold text-white mb-6 flex items-center">
                 <i data-lucide="cpu" class="w-7 h-7 mr-3"></i>
                 Technical Skills
             </h2>
-            <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 space-y-6">
+            <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 space-y-8">
+                
                 <div>
-                    <h3 class="text-xl font-semibold text-white mb-3">Languages</h3>
+                    <h3 class="text-xl font-semibold text-white mb-3">Embedded Systems & Robotics</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-900/30 text-blue-300 border border-blue-800 px-3 py-1 rounded-full text-sm font-medium">C/C++</span>
+                        <span class="bg-blue-900/30 text-blue-300 border border-blue-800 px-3 py-1 rounded-full text-sm font-medium">Arduino</span>
+                        <span class="bg-blue-900/30 text-blue-300 border border-blue-800 px-3 py-1 rounded-full text-sm font-medium">Assembly (x86)</span>
+                        <span class="bg-blue-900/30 text-blue-300 border border-blue-800 px-3 py-1 rounded-full text-sm font-medium">PID Control</span>
+                        <span class="bg-blue-900/30 text-blue-300 border border-blue-800 px-3 py-1 rounded-full text-sm font-medium">PyTorch (AI)</span>
+                        <span class="bg-blue-900/30 text-blue-300 border border-blue-800 px-3 py-1 rounded-full text-sm font-medium">ROS2</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Wireless Comms & RF</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-purple-900/30 text-purple-300 border border-purple-800 px-3 py-1 rounded-full text-sm font-medium">Signal Processing</span>
+                        <span class="bg-purple-900/30 text-purple-300 border border-purple-800 px-3 py-1 rounded-full text-sm font-medium">MATLAB/Simulink</span>
+                        <span class="bg-purple-900/30 text-purple-300 border border-purple-800 px-3 py-1 rounded-full text-sm font-medium">Modulation (QAM/OFDM)</span>
+                        <span class="bg-purple-900/30 text-purple-300 border border-purple-800 px-3 py-1 rounded-full text-sm font-medium">LTspice</span>
+                        <span class="bg-purple-900/30 text-purple-300 border border-purple-800 px-3 py-1 rounded-full text-sm font-medium">Spectrum Analysis</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Software & Cloud Infrastructure</h3>
                     <div class="flex flex-wrap gap-2">
                         <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Python</span>
-                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">C++</span>
-                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Java</span>
-                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Typescript</span>
-                    </div>
-                </div>
-                <div>
-                    <h3 class="text-xl font-semibold text-white mb-3">Frameworks & Libraries</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Django</span>
                         <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">FastAPI</span>
-                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Flask</span>
-                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">PyTorch</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Django</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">TypeScript</span>
                         <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Node.js</span>
-                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Arduino</span>
-                    </div>
-                </div>
-                <div>
-                    <h3 class="text-xl font-semibold text-white mb-3">Tools & Technologies</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Git</span>
                         <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">MongoDB</span>
-                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">HTML</span>
-                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">CSS</span>
                         <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">REST APIs</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Git</span>
                         <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">GitHub Actions</span>
                         <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm font-medium">Heroku</span>
                     </div>
@@ -138,7 +128,6 @@ If you want someone who learns fast, works harder than most, and performs under 
             </div>
         </section>
 
-        <!-- Projects Section -->
         <section id="projects" class="mb-16">
             <h2 class="text-3xl font-bold text-white mb-6 flex items-center">
                 <i data-lucide="folder-git-2" class="w-7 h-7 mr-3"></i>
@@ -146,15 +135,13 @@ If you want someone who learns fast, works harder than most, and performs under 
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 
-                <!-- Project Card 1 -->
                 <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-gray-600 transition duration-300 flex flex-col">
                     <h3 class="text-xl font-bold text-white">Iris Species Classification Model</h3>
                     <p class="text-sm text-gray-400 mb-3">Machine Learning Project</p>
                     <p class="text-gray-300 mb-4 flex-grow">Developed end-to-end logistic regression classifier with 100% accuracy on 150-sample test set, implementing full ML pipeline with preprocessing, evaluation metrics, and statistical visualization</p>
                     <div class="flex flex-wrap gap-2 mb-4">
                         <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">Python</span>
-                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">discord.py</span>
-                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">Riot API</span>
+                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">PyTorch</span>
                         <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">CI/CD</span>
                     </div>
 
@@ -163,7 +150,6 @@ If you want someone who learns fast, works harder than most, and performs under 
                     </a>
                 </div>
 
-                <!-- Project Card 2 -->
                 <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-gray-600 transition duration-300 flex flex-col">
                     <h3 class="text-xl font-bold text-white">Lockeln Tech</h3>
                     <p class="text-sm text-gray-400 mb-3">Hackathon Project (SB Hacks 2025)</p>
@@ -180,7 +166,6 @@ If you want someone who learns fast, works harder than most, and performs under 
                     </a>
                 </div>
 
-                <!-- Project Card 3 -->
                 <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-gray-600 transition duration-300 flex flex-col">
                     <h3 class="text-xl font-bold text-white">AI Card Game</h3>
                     <p class="text-sm text-gray-400 mb-3">College Project</p>
@@ -189,7 +174,6 @@ If you want someone who learns fast, works harder than most, and performs under 
                         <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">C++</span>
                         <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">Game Theory</span>
                         <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">OOP</span>
-                        <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-xs font-medium">GUI</span>
                     </div>
 
                     <a href="https://github.com/DanishSaini124" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white self-start flex items-center">
@@ -200,16 +184,13 @@ If you want someone who learns fast, works harder than most, and performs under 
             </div>
         </section>
 
-        <!-- Experience & Leadership Section -->
         <section id="experience" class="mb-16">
             <h2 class="text-3xl font-bold text-white mb-8 flex items-center">
                 <i data-lucide="briefcase" class="w-7 h-7 mr-3"></i>
                 Experience & Leadership
             </h2>
             
-            <!-- Timeline Container -->
             <div class="relative border-l-2 border-gray-700 pl-8 space-y-12">
-                <!-- Timeline Item 1 -->
                 <div class="relative">
                     <div class="absolute -left-10 bg-gray-700 w-4 h-4 rounded-full border-4 border-black"></div>
                     <p class="text-sm text-gray-400 mb-1">August 2025 - Present</p>
@@ -222,7 +203,6 @@ If you want someone who learns fast, works harder than most, and performs under 
                     </ul>
                 </div>
 
-                <!-- Timeline Item 2 -->
                 <div class="relative">
                     <div class="absolute -left-10 bg-gray-700 w-4 h-4 rounded-full border-4 border-black"></div>
                     <p class="text-sm text-gray-400 mb-1">February 2025 - April 2025</p>
@@ -234,7 +214,6 @@ If you want someone who learns fast, works harder than most, and performs under 
                     </ul>
                 </div>
                 
-                <!-- Timeline Item 3 -->
                 <div class="relative">
                     <div class="absolute -left-10 bg-gray-700 w-4 h-4 rounded-full border-4 border-black"></div>
                     <p class="text-sm text-gray-400 mb-1">December 2024 - June 2025</p>
@@ -248,7 +227,6 @@ If you want someone who learns fast, works harder than most, and performs under 
             </div>
         </section>
 
-        <!-- Education Section -->
         <section id="education" class="mb-16">
             <h2 class="text-3xl font-bold text-white mb-6 flex items-center">
                 <i data-lucide="graduation-cap" class="w-7 h-7 mr-3"></i>
@@ -262,7 +240,7 @@ If you want someone who learns fast, works harder than most, and performs under 
                 </div>
                 <div class="bg-gray-900 p-6 rounded-lg border border-gray-800">
                     <h3 class="text-xl font-bold text-white">Moorpark College</h3>
-                    <p class="text-lg text-gray-400">A.S. in Computer Science, Physics, and Mathematics</V>
+                    <p class="text-lg text-gray-400">A.S. in Computer Science, Physics, and Mathematics</p>
                     <p class="text-gray-300 mt-2">Graduated: August 2025</p>
                 </div>
             </div>
@@ -270,17 +248,14 @@ If you want someone who learns fast, works harder than most, and performs under 
 
     </main>
 
-    <!-- Footer -->
     <footer class="text-center py-8 text-gray-500 text-sm">
         <p>© 2025 Danish Saini</p>
         <p class="mt-1">Built with HTML & Tailwind CSS</p>
     </footer>
 
-    <!-- Script to activate Lucide icons -->
     <script>
         lucide.createIcons();
     </script>
 
 </body>
 </html>
-
